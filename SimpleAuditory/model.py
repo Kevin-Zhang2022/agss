@@ -372,7 +372,7 @@ class cgss(nn.Module):
             self,
             channels=224,
             # thr=0.7,
-            sigma_range=[0.1, 10],
+            sigma_range=[0.4, 10],
     ):
         super(cgss, self).__init__()
         self.name = 'cgss'
